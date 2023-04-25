@@ -1,0 +1,83 @@
+:root {
+  --primary: #6979f8;
+  --primary-hover: #a5affb;
+  --second: #be52f2;
+  --second-hover: #dba5f5;
+  --success: #00c48c;
+  --success-hover: #7ddfc3;
+  --info: #0084f4;
+  --info-hover: #66b5f8;
+  --warning: #ffa26b;
+  --warning-hover: #ffc7a6;
+  --danger: #ff647c;
+  --danger-hover: #fdafbb;
+  --white: #f1f1f1;
+  --white-hover: #dedede;
+  --black: #11111b;
+  --black-hover: #343440;
+  --yellow: #ffeb00;
+  --yellow-hover: #cfc555;
+  --light-blue: #84eee8;
+  // --yellow-hover: radial-gradient(96.87% 124.51% at 45.33% 23.44%, rgba(255, 255, 255, 0.49) 11.84%, rgba(255, 224, 224, 0) 63.33%, rgba(255, 224, 224, 0) 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  // , #FFEB00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a.link {
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 2px solid #c5f2ef;
+  transition: all 0.4s;
+}
+
+a.link:hover {
+  border-bottom: 2px solid #00c48c;
+}
+
+.heading {
+  margin: 20px 0;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  &-1 {
+    font-size: 34px;
+  }
+  &-2 {
+    font-size: 22px;
+  }
+  &-3 {
+    font-size: 18px;
+  }
+}
+
+.text {
+  &-1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  &-2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  &-3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  &-4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &-5 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
